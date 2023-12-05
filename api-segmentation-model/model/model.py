@@ -35,4 +35,10 @@ def predict_image_segmentation(img):
   for value, count in sorted_counts:
     if (count/(224*224))*100 >=3:
       ingredient.append(class_labels[value])
+
+  class_to_delete = ["background", "sauce", "cake", "ice cream"]
+  for i in class_to_delete:
+    if i in ingredient:
+      ingredient.remove(i)
+
   return ingredient
