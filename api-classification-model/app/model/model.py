@@ -1,13 +1,16 @@
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
+import os
 
 class_labels = [
    'anggur', 'apel', 'ayam goreng', 'bakso', 'bubur-ayam', 'bubur-biji-salak', 'donuts', 'dumplings', 'hamburger', 'ikan-bakar', 'ikan-goreng', 'kentang goreng', 'kopi', 'martabak-manis', 'mie ayam', 'nasi-goreng', 'pisang', 'pisang goreng', 'rawon', 'rendang', 'roti', 'sate ayam', 'soto', 'steak', 'susu', 'tahu goreng', 'teh', 'telur', 'tempe-goreng', 'udang goreng'
 ]
 
 # Load model
-model = tf.keras.models.load_model("model/model.h5", custom_objects={'KerasLayer':hub.KerasLayer})
+dirname = os.path.dirname(__file__)
+filename = os.path.join(dirname, 'model.h5')
+model = tf.keras.models.load_model(filename, custom_objects={'KerasLayer':hub.KerasLayer})
 
 # Preprocess the Image
 def preprocess_image(img):

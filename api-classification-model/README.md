@@ -23,5 +23,6 @@ pip install -r requirements.txt
 Run app in development environment
 
 ```
-uvicorn app.main:app --reload
+cd app
+uvicorn main:app --reload
 ```
