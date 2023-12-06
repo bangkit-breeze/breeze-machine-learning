@@ -16,6 +16,8 @@ jobs:
     steps: 
       - name: Checkout code 
         uses: actions/checkout@v2
+        with:
+          lfs: true
     
       - name: Set Up Cloud SDK
         uses: google-github-actions/setup-gcloud@v0.2.0
