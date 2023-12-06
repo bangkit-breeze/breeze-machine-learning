@@ -14,4 +14,4 @@ COPY ./app /usr/src/flask/app
 
 ENV PYTHONPATH "${PYTHONPATH}:/usr/src/flask/app"
 
-CMD ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0", "--port", $PORT]
+CMD uvicorn main:app --reload --host 0.0.0.0 --port $PORT
