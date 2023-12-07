@@ -2,6 +2,7 @@ import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
 import os
+import pandas as pd
 
 dirname = os.path.dirname(__file__)
 dirname = os.path.dirname(__file__)
@@ -9,6 +10,9 @@ dirname = os.path.dirname(__file__)
 file_path_category = os.path.join(dirname, 'category_id_clean.txt')
 with open(file_path_category, 'r') as file:
     class_labels = [line.strip().replace("\t", "") for line in file]
+
+excel_file_path = 'model/Food_Dataset.xlsx'
+df = pd.read_excel(excel_file_path, sheet_name='Carbon Emission')
 
 """
 download the model from this link 
@@ -37,6 +41,8 @@ def predict_image_sgmnt(img):
   counts_dict = dict(zip(unique_values, counts))
   sorted_counts = sorted(counts_dict.items(), key=lambda x: x[1], reverse=True)
   ingredient = []
+  carbon_footprint = []
+
   for value, count in sorted_counts:
     if (count/(224*224))*100 >=3:
       ingredient.append(class_labels[value])
@@ -46,4 +52,7 @@ def predict_image_sgmnt(img):
     if i in ingredient:
       ingredient.remove(i)
 
-  return ingredient
+  for i in ingredient:
+    carbon_footprint.append(df.loc[df['Food Product'] == i, 'Total_emissions (1kg CC / kg)'].values[0])
+
+  return ingredient, carbon_footprint

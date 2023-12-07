@@ -27,7 +27,7 @@ async def predict(image: UploadFile):
 
     img = Image.open(image.file)
     predicted_class_clf, confidence_clf = predict_image_clf(img)
-    ingredient = predict_image_sgmnt(img)
+    ingredient, carbon_footprint = predict_image_sgmnt(img)
 
     return {
         "name": model_name,
@@ -38,7 +38,8 @@ async def predict(image: UploadFile):
             "confidence": str(confidence_clf)
         },
         "segmentation": {
-            "class": ingredient
+            "class": ingredient,
+            "carbon_footprint" : carbon_footprint
         },
         
     }
