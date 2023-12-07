@@ -41,7 +41,7 @@ def predict_image_sgmnt(img):
     if (count/(224*224))*100 >=3:
       ingredient.append(class_labels[value])
 
-  class_to_delete = ["background", "sauce", "cake", "ice cream"]
+  class_to_delete = ["background", "sauce", "juice", "ice cream", "other ingredients"]
   for i in class_to_delete:
     if i in ingredient:
       ingredient.remove(i)
