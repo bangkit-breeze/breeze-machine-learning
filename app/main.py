@@ -1,13 +1,15 @@
 from fastapi import FastAPI, HTTPException, UploadFile
-from PIL import Image
-
+from model.carbon_emission import getCarbonEmission
 from model.model_classification import predict_image_clf
 from model.model_segmentation import predict_image_sgmnt
+from PIL import Image
+
+THRESHOLD = 0.6
 
 app = FastAPI()
 
 model_name = "BREEZE Food Recognition"
-model_version = "v1.0.0"
+model_version = "v1.0.1"
 
 @app.get("/")
 async def index():
@@ -27,7 +29,12 @@ async def predict(image: UploadFile):
 
     img = Image.open(image.file)
     predicted_class_clf, confidence_clf = predict_image_clf(img)
-    ingredient, carbon_footprint = predict_image_sgmnt(img)
+    ingredients, total_emission = getCarbonEmission(predicted_class_clf)
+    ingredient_segmentation = predict_image_sgmnt(img)
+
+    # Check Threshold
+    low_confidence = True if (confidence_clf < THRESHOLD) else False
+    disclaimer_text = "The confidence is under 40%, change your angle!"
 
     return {
         "name": model_name,
@@ -38,8 +45,9 @@ async def predict(image: UploadFile):
             "confidence": str(confidence_clf)
         },
         "segmentation": {
-            "class": ingredient,
-            "carbon_footprint" : carbon_footprint
+            "class": ingredient_segmentation,
         },
-        
+        "ingredients": ingredients,
+        "total_emissions": total_emission,
+        "disclaimer": disclaimer_text if low_confidence else ""
     }

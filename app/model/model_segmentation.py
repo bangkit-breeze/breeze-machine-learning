@@ -1,8 +1,9 @@
+import os
+
 import numpy as np
+import pandas as pd
 import tensorflow as tf
 import tensorflow_hub as hub
-import os
-import pandas as pd
 
 dirname = os.path.dirname(__file__)
 dirname = os.path.dirname(__file__)
@@ -41,7 +42,6 @@ def predict_image_sgmnt(img):
   counts_dict = dict(zip(unique_values, counts))
   sorted_counts = sorted(counts_dict.items(), key=lambda x: x[1], reverse=True)
   ingredient = []
-  carbon_footprint = []
 
   for value, count in sorted_counts:
     if (count/(224*224))*100 >=3:
@@ -52,7 +52,4 @@ def predict_image_sgmnt(img):
     if i in ingredient:
       ingredient.remove(i)
 
-  for i in ingredient:
-    carbon_footprint.append(df.loc[df['Food Product'] == i, 'Total_emissions (1kg CC / kg)'].values[0])
-
-  return ingredient, carbon_footprint
+  return ingredient

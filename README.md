@@ -17,7 +17,7 @@ python -m venv env
 3. Install Python depedencies
 
 ```
-pip install -r requirements.txt
+pip install -r ../requirements.txt
 ```
 
 ## Run 
