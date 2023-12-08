@@ -1,146 +1,180 @@
 MAKANAN,BAHAN,BERAT (kg),Total_emissions (1kg CC / kg),Carbon Footprint
 anggur,grape,0.15,0.53,0.0795
 apel,apple,0.1,0.3,0.03
-ayam-goreng,salt ,0.005,0.1,0.0005
-bakso,salt ,0.005,0.1,0.0005
-bubur-ayam,salt ,0.002,0.1,0.0002
-bubur-biji-salak,salt ,0.001,0.1,0.0001
-ikan-bakar,salt ,0.001,0.1,0.0001
-ikan-goreng,salt ,0.001,0.1,0.0001
-kentang-goreng,salt ,0.005,0.1,0.0005
-martabak-manis,salt ,0.001,0.1,0.0001
-mie-ayam,salt ,0.005,0.1,0.0005
-pisang-goreng,salt ,0.002,0.1,0.0002
-rawon,salt ,0.01,0.1,0.001
-rendang,salt ,0.005,0.1,0.0005
-roti,salt ,0.005,0.1,0.0005
-sate-ayam,salt ,0.002,0.1,0.0002
-soto,salt ,0.005,0.1,0.0005
-steak,salt ,0.005,0.1,0.0005
-telur,salt ,0.005,0.1,0.0005
-udang-goreng,salt ,0.005,0.1,0.0005
-donut,salt ,0.002,0.1,0.0002
-dumpling,salt ,0.002,0.1,0.0002
-ayam-goreng,pepper ,0.005,1.0,0.005
-mie-ayam,pepper ,0.005,1.0,0.005
-udang-goreng,pepper ,0.005,1.0,0.005
-ayam-goreng,garlic powder ,0.005,2.3,0.0115
-bakso,garlic powder ,0.005,2.3,0.0115
-ikan-goreng,garlic powder ,0.001,2.3,0.0023
-tempe-goreng,garlic powder ,0.001,2.3,0.0023
-udang-goreng,garlic powder ,0.005,2.3,0.0115
-ayam-goreng,paprika ,0.005,1.6,0.008
-tempe-goreng,paprika ,0.001,1.6,0.0016
-udang-goreng,paprika ,0.005,1.6,0.008
-ayam-goreng,flour ,0.025,0.65,0.01625
-roti,flour ,0.075,0.65,0.04875
-udang-goreng,flour ,0.02,0.65,0.013000000000000001
-donut,flour ,0.08,0.65,0.052000000000000005
-dumpling,flour ,0.075,0.65,0.04875
-ayam-goreng,breadcrumbs ,0.025,1.7,0.0425
-ikan-goreng,breadcrumbs ,0.002,1.7,0.0034
-bakso,minced meat ,0.5,10.0,5.0
-bakso,tapioca flour ,0.1,0.4,0.04000000000000001
-bakso,ground white pepper ,0.005,7.7,0.0385
-sate-ayam,ground white pepper ,0.002,7.7,0.0154
-bakso,onion powder ,0.005,4.6,0.023
-tempe-goreng,onion powder ,0.001,4.6,0.0046
-bubur-ayam,ginger ,0.002,0.61,0.00122
-mie-ayam,ginger ,0.01,0.61,0.0061
-rawon,ginger ,0.01,0.61,0.0061
-rendang,ginger ,0.01,0.61,0.0061
-sate-ayam,ginger ,0.01,0.61,0.0061
-soto,ginger ,0.01,0.61,0.0061
-tahu-goreng,ginger ,0.005,0.61,0.00305
-dumpling,ginger ,0.005,0.61,0.00305
-bubur-ayam,onion ,0.01,0.17,0.0017000000000000001
-mie-ayam,onion ,0.02,0.17,0.0034000000000000002
-nasi-goreng,onion ,0.025,0.17,0.00425
-rawon,onion ,0.05,0.17,0.0085
-soto,onion ,0.05,0.17,0.0085
-hamburger,onion ,0.025,0.17,0.00425
-bubur-ayam,celery ,0.01,0.12,0.0012
-mie-ayam,celery ,0.01,0.12,0.0012
-bubur-ayam,carrot ,0.01,0.37,0.0037
-nasi-goreng,carrot ,0.025,0.37,0.00925
-bubur-ayam,spring onion ,0.01,0.26,0.0026000000000000003
-mie-ayam,spring onion ,0.01,0.26,0.0026000000000000003
-bubur-ayam,vegetable oil ,0.01,2.6,0.026000000000000002
-bubur-biji-salak,rice flour ,0.075,3.4,0.255
-bubur-biji-salak,coconut milk ,0.075,1.6,0.12
-rawon,coconut milk ,0.05,1.6,0.08000000000000002
-rendang,coconut milk ,0.2,1.6,0.32000000000000006
-sate-ayam,coconut milk ,0.05,1.6,0.08000000000000002
-bubur-biji-salak,palm sugar ,0.025,0.64,0.016
-bubur-biji-salak,water ,0.15,0.1,0.015
-roti,water ,0.01,0.1,0.001
-soto,water ,0.05,0.1,0.005000000000000001
-dumpling,water ,0.025,0.1,0.0025000000000000005
-ikan-bakar,fish fillet ,0.15,9.2,1.38
-ikan-goreng,fish fillet ,0.2,9.2,1.8399999999999999
-ikan-bakar,black pepper ,0.001,4.8,0.0048
-ikan-goreng,black pepper ,0.001,4.8,0.0048
-steak,black pepper ,0.002,4.8,0.0096
-tempe-goreng,black pepper ,0.001,4.8,0.0048
-ikan-bakar,lemon juice ,0.002,1.5,0.003
-sate-ayam,lemon juice ,0.01,1.5,0.015
-ikan-goreng,all-purpose flour ,0.002,1.0,0.002
-martabak-manis,all-purpose flour ,0.075,1.0,0.075
-ikan-goreng,oil ,0.002,1.8,0.0036000000000000003
-kentang-goreng,oil ,0.01,1.8,0.018000000000000002
-mie-ayam,oil ,0.01,1.8,0.018000000000000002
-nasi-goreng,oil ,0.015,1.8,0.027
-pisang-goreng,oil ,0.01,1.8,0.018000000000000002
-rendang,oil ,0.015,1.8,0.027
-sate-ayam,oil ,0.01,1.8,0.018000000000000002
-tahu-goreng,oil ,0.03,1.8,0.054
-telur,oil ,0.025,1.8,0.045000000000000005
-tempe-goreng,oil ,0.002,1.8,0.0036000000000000003
-udang-goreng,oil ,0.02,1.8,0.036000000000000004
-donut,oil ,0.01,1.8,0.018000000000000002
-kentang-goreng,potato ,0.2,0.28,0.05600000000000001
-kopi,coffee beans ,0.01,12.0,0.12
-martabak-manis,sugar ,0.025,0.66,0.0165
-roti,sugar ,0.005,0.66,0.0033000000000000004
-sate-ayam,sugar ,0.01,0.66,0.006600000000000001
-donut,sugar ,0.01,0.66,0.006600000000000001
-martabak-manis,baking powder ,0.003,0.3,0.0009
-donut,baking powder ,0.005,0.3,0.0015
-martabak-manis,butter ,0.025,17.0,0.42500000000000004
-martabak-manis,vanilla extract ,0.001,3.2,0.0032
-mie-ayam,chicken ,0.1,3.2,0.32000000000000006
-nasi-goreng,soy sauce ,0.01,1.2,0.012
-tahu-goreng,soy sauce ,0.015,1.2,0.018
-tempe-goreng,soy sauce ,0.002,1.2,0.0024
-dumpling,soy sauce ,0.005,1.2,0.006
-pisang-goreng,banana ,0.1,0.64,0.064
-pisang,banana ,0.1,0.64,0.064
-rawon,kluwek nut ,0.01,0.4,0.004
-rawon,kemiri nut ,0.01,4.5,0.045
-rawon,lemongrass ,0.01,0.5,0.005
-rendang,lemongrass ,0.01,0.5,0.005
-rendang,chili ,0.01,1.6,0.016
-rendang,brown sugar ,0.03,0.47,0.014099999999999998
-rendang,shallot ,0.02,0.35,0.006999999999999999
-rendang,turmeric ,0.003,4.0,0.012
-soto,turmeric ,0.005,4.0,0.02
-rendang,coriander ,0.003,0.6,0.0018
-soto,coriander ,0.01,0.6,0.006
-rendang,cumin ,0.003,0.72,0.00216
-soto,cumin ,0.01,0.72,0.0072
-roti,yeast ,0.005,3.2,0.016
-sate-ayam,ground coriander ,0.002,0.71,0.00142
-sate-ayam,ground cumin ,0.002,2.3,0.0046
-sate-ayam,ground turmeric ,0.002,4.0,0.008
-steak,meat ,0.15,10.0,1.5
-teh,tea leaves ,0.002,0.3,0.0006
-tempe-goreng,tempeh ,0.2,0.3,0.06
-hamburger,ground beef ,0.1,20.0,2.0
-hamburger,bread roll ,0.05,1.0,0.05
-hamburger,cheese ,0.025,10.0,0.25
-hamburger,lettuce ,0.025,0.57,0.014249999999999999
-hamburger,mustard ,0.005,1.5,0.0075
-hamburger,ketchup ,0.005,1.1,0.0055000000000000005
-dumpling,ground pork ,0.05,12.1,0.605
-dumpling,green onion ,0.01,0.26,0.0026000000000000003
-dumpling,sesame oil ,0.005,2.3,0.0115
+ayam-goreng,chicken,0.2,3.2,0.6400000000000001
+bubur-ayam,chicken,0.075,3.2,0.24
+mie-ayam,chicken,0.1,3.2,0.32000000000000006
+sate-ayam,chicken,0.2,3.2,0.6400000000000001
+soto,chicken,0.1,3.2,0.32000000000000006
+ayam-goreng,salt,0.005,0.1,0.0005
+bakso,salt,0.005,0.1,0.0005
+bubur-ayam,salt,0.002,0.1,0.0002
+bubur-biji-salak,salt,0.001,0.1,0.0001
+ikan-bakar,salt,0.001,0.1,0.0001
+ikan-goreng,salt,0.001,0.1,0.0001
+kentang-goreng,salt,0.005,0.1,0.0005
+martabak-manis,salt,0.001,0.1,0.0001
+mie-ayam,salt,0.005,0.1,0.0005
+pisang-goreng,salt,0.002,0.1,0.0002
+rawon,salt,0.01,0.1,0.001
+rendang,salt,0.005,0.1,0.0005
+roti,salt,0.005,0.1,0.0005
+sate-ayam,salt,0.002,0.1,0.0002
+soto,salt,0.005,0.1,0.0005
+steak,salt,0.005,0.1,0.0005
+telur,salt,0.005,0.1,0.0005
+udang-goreng,salt,0.005,0.1,0.0005
+donut,salt,0.002,0.1,0.0002
+dumpling,salt,0.002,0.1,0.0002
+ayam-goreng,pepper,0.005,1.0,0.005
+mie-ayam,pepper,0.005,1.0,0.005
+udang-goreng,pepper,0.005,1.0,0.005
+ayam-goreng,garlic powder,0.005,2.3,0.0115
+bakso,garlic powder,0.005,2.3,0.0115
+ikan-goreng,garlic powder,0.001,2.3,0.0023
+tempe-goreng,garlic powder,0.001,2.3,0.0023
+udang-goreng,garlic powder,0.005,2.3,0.0115
+ayam-goreng,paprika,0.005,1.6,0.008
+tempe-goreng,paprika,0.001,1.6,0.0016
+udang-goreng,paprika,0.005,1.6,0.008
+ayam-goreng,flour,0.025,0.65,0.01625
+roti,flour,0.075,0.65,0.04875
+udang-goreng,flour,0.02,0.65,0.013000000000000001
+donut,flour,0.08,0.65,0.052000000000000005
+dumpling,flour,0.075,0.65,0.04875
+ayam-goreng,egg,0.025,4.5,0.1125
+bakso,egg,0.001,4.5,0.0045000000000000005
+ikan-goreng,egg,0.001,4.5,0.0045000000000000005
+martabak-manis,egg,0.05,4.5,0.225
+telur,egg,0.05,4.5,0.225
+udang-goreng,egg,0.03,4.5,0.135
+donut,egg,0.015,4.5,0.0675
+ayam-goreng,breadcrumbs,0.025,1.7,0.0425
+ikan-goreng,breadcrumbs,0.002,1.7,0.0034
+bakso,minced meat,0.5,10.0,5.0
+bakso,tapioca flour,0.1,0.4,0.04000000000000001
+bakso,ground white pepper,0.005,7.7,0.0385
+sate-ayam,ground white pepper,0.002,7.7,0.0154
+bakso,onion powder,0.005,4.6,0.023
+tempe-goreng,onion powder,0.001,4.6,0.0046
+bubur-ayam,rice,0.075,4.5,0.33749999999999997
+nasi-goreng,rice,0.125,4.5,0.5625
+bubur-ayam,garlic,0.002,0.53,0.0010600000000000002
+mie-ayam,garlic,0.01,0.53,0.0053
+nasi-goreng,garlic,0.01,0.53,0.0053
+rawon,garlic,0.01,0.53,0.0053
+rendang,garlic,0.01,0.53,0.0053
+sate-ayam,garlic,0.01,0.53,0.0053
+soto,garlic,0.01,0.53,0.0053
+tahu-goreng,garlic,0.005,0.53,0.00265
+dumpling,garlic,0.005,0.53,0.00265
+bubur-ayam,ginger,0.002,0.61,0.00122
+mie-ayam,ginger,0.01,0.61,0.0061
+rawon,ginger,0.01,0.61,0.0061
+rendang,ginger,0.01,0.61,0.0061
+sate-ayam,ginger,0.01,0.61,0.0061
+soto,ginger,0.01,0.61,0.0061
+tahu-goreng,ginger,0.005,0.61,0.00305
+dumpling,ginger,0.005,0.61,0.00305
+bubur-ayam,onion,0.01,0.17,0.0017000000000000001
+mie-ayam,onion,0.02,0.17,0.0034000000000000002
+nasi-goreng,onion,0.025,0.17,0.00425
+rawon,onion,0.05,0.17,0.0085
+soto,onion,0.05,0.17,0.0085
+hamburger,onion,0.025,0.17,0.00425
+bubur-ayam,celery,0.01,0.12,0.0012
+mie-ayam,celery,0.01,0.12,0.0012
+bubur-ayam,carrot,0.01,0.37,0.0037
+nasi-goreng,carrot,0.025,0.37,0.00925
+bubur-ayam,spring onion,0.01,0.26,0.0026000000000000003
+mie-ayam,spring onion,0.01,0.26,0.0026000000000000003
+bubur-ayam,vegetable oil,0.01,2.6,0.026000000000000002
+bubur-biji-salak,rice flour,0.075,3.4,0.255
+bubur-biji-salak,coconut milk,0.075,1.6,0.12
+rawon,coconut milk,0.05,1.6,0.08000000000000002
+rendang,coconut milk,0.2,1.6,0.32000000000000006
+sate-ayam,coconut milk,0.05,1.6,0.08000000000000002
+bubur-biji-salak,palm sugar,0.025,0.64,0.016
+bubur-biji-salak,water,0.15,0.1,0.015
+roti,water,0.01,0.1,0.001
+soto,water,0.05,0.1,0.005000000000000001
+dumpling,water,0.025,0.1,0.0025000000000000005
+ikan-bakar,fish fillet,0.15,9.2,1.38
+ikan-goreng,fish fillet,0.2,9.2,1.8399999999999999
+ikan-bakar,black pepper,0.001,4.8,0.0048
+ikan-goreng,black pepper,0.001,4.8,0.0048
+steak,black pepper,0.002,4.8,0.0096
+tempe-goreng,black pepper,0.001,4.8,0.0048
+ikan-bakar,olive oil,0.002,6.0,0.012
+steak,olive oil,0.015,6.0,0.09
+ikan-bakar,lemon juice,0.002,1.5,0.003
+sate-ayam,lemon juice,0.01,1.5,0.015
+ikan-goreng,all-purpose flour,0.002,1.0,0.002
+martabak-manis,all-purpose flour,0.075,1.0,0.075
+ikan-goreng,oil,0.002,1.8,0.0036000000000000003
+kentang-goreng,oil,0.01,1.8,0.018000000000000002
+mie-ayam,oil,0.01,1.8,0.018000000000000002
+nasi-goreng,oil,0.015,1.8,0.027
+pisang-goreng,oil,0.01,1.8,0.018000000000000002
+rendang,oil,0.015,1.8,0.027
+sate-ayam,oil,0.01,1.8,0.018000000000000002
+tahu-goreng,oil,0.03,1.8,0.054
+telur,oil,0.025,1.8,0.045000000000000005
+tempe-goreng,oil,0.002,1.8,0.0036000000000000003
+udang-goreng,oil,0.02,1.8,0.036000000000000004
+donut,oil,0.01,1.8,0.018000000000000002
+kentang-goreng,potato,0.2,0.28,0.05600000000000001
+kopi,coffee beans,0.01,12.0,0.12
+martabak-manis,sugar,0.025,0.66,0.0165
+roti,sugar,0.005,0.66,0.0033000000000000004
+sate-ayam,sugar,0.01,0.66,0.006600000000000001
+donut,sugar,0.01,0.66,0.006600000000000001
+martabak-manis,baking powder,0.003,0.3,0.0009
+donut,baking powder,0.005,0.3,0.0015
+martabak-manis,milk,0.05,2.2,0.11000000000000001
+susu,milk,0.25,2.2,0.55
+udang-goreng,milk,0.03,2.2,0.066
+donut,milk,0.02,2.2,0.044000000000000004
+martabak-manis,butter,0.025,17.0,0.42500000000000004
+martabak-manis,vanilla extract,0.001,3.2,0.0032
+nasi-goreng,peas,0.025,0.27,0.006750000000000001
+nasi-goreng,soy sauce,0.01,1.2,0.012
+tahu-goreng,soy sauce,0.015,1.2,0.018
+tempe-goreng,soy sauce,0.002,1.2,0.0024
+dumpling,soy sauce,0.005,1.2,0.006
+pisang-goreng,banana,0.1,0.64,0.064
+pisang,banana,0.1,0.64,0.064
+rawon,beef,0.15,59.6,8.94
+rendang,beef,0.25,59.6,14.9
+rawon,kluwek nut,0.01,0.4,0.004
+rawon,kemiri nut,0.01,4.5,0.045
+rawon,lemongrass,0.01,0.5,0.005
+rendang,lemongrass,0.01,0.5,0.005
+rendang,chili,0.01,1.6,0.016
+rendang,brown sugar,0.03,0.47,0.014099999999999998
+rendang,shallot,0.02,0.35,0.006999999999999999
+rendang,turmeric,0.003,4.0,0.012
+soto,turmeric,0.005,4.0,0.02
+rendang,coriander,0.003,0.6,0.0018
+soto,coriander,0.01,0.6,0.006
+rendang,cumin,0.003,0.72,0.00216
+soto,cumin,0.01,0.72,0.0072
+roti,yeast,0.005,3.2,0.016
+sate-ayam,ground coriander,0.002,0.71,0.00142
+sate-ayam,ground cumin,0.002,2.3,0.0046
+sate-ayam,ground turmeric,0.002,4.0,0.008
+steak,meat,0.15,10.0,1.5
+tahu-goreng,tofu,0.2,1.3,0.26
+teh,tea leaves,0.002,0.3,0.0006
+tempe-goreng,tempeh,0.2,0.3,0.06
+udang-goreng,shrimp,0.1,11.8,1.1800000000000002
+hamburger,ground beef,0.1,20.0,2.0
+hamburger,bread roll,0.05,1.0,0.05
+hamburger,cheese,0.025,10.0,0.25
+hamburger,lettuce,0.025,0.57,0.014249999999999999
+hamburger,tomato,0.025,1.42,0.0355
+hamburger,mustard,0.005,1.5,0.0075
+hamburger,ketchup,0.005,1.1,0.0055000000000000005
+dumpling,ground pork,0.05,12.1,0.605
+dumpling,green onion,0.01,0.26,0.0026000000000000003
+dumpling,sesame oil,0.005,2.3,0.0115
